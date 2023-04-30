@@ -5,8 +5,8 @@ import * as Yup from 'yup';
 import { useSelector, useDispatch } from "react-redux";
 
 
-import { addContact } from "redux/operations";
-import { selectContacts } from "redux/selectors";
+import { addContact } from "redux/contacts/operations";
+import { selectContacts } from "redux/contacts/selectors";
 import { FormWrapper, StyledInput,  StyledErrorMessage  } from "./contactFormStyled";
 
 const notifyError = message => toast.error(message);
